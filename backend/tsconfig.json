@@ -13,7 +13,7 @@
     "sourceMap": false,
     "outDir": "./.medusa/server",
     "rootDir": "./",
-    "baseUrl": ".",
+    // "baseUrl": ".",
     "paths": {
       "*": ["./src/*"]
     },
@@ -26,11 +26,5 @@
     "swc": true
   },
   "include": ["src", "medusa-config.js"],
-  "exclude": [
-    "**/__tests__",
-    "**/__fixtures__",
-    "node_modules",
-    "build",
-    ".cache"
-  ]
+  "exclude": ["**/__tests__", "**/__fixtures__", "node_modules", "build", ".cache"]
 }
